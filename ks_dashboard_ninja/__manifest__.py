@@ -63,7 +63,7 @@ Dashboard Ninja v16.0,
         odoo dashboard module
 """,
 
-	'author': 'Ksolves India Ltd.',
+	'author': 'omar abdelsamee',
 
 	'license': 'OPL-1',
 
