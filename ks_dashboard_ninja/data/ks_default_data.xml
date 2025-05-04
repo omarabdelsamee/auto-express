@@ -379,210 +379,210 @@
 <!--            <field name="ks_company_id" eval="0"/>-->
 <!--        </record>-->
     </data>
-    <record id="ks_default_item_16" model="ks_dashboard_ninja.item">
-        <field name="name">Kpi Ratio</field>
-        <field name="ks_dashboard_item_type">ks_kpi</field>
-        <field name="ks_record_count_type">count</field>
-        <field name="ks_record_count_type_2">count</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>
-        <field name="ks_data_comparison">Ratio</field>
-        <field name="ks_domain">[["id","&lt;",100]]</field>
-        <field name="ks_default_icon">user</field>
-        <field name="ks_dashboard_item_theme">blue</field>
-        <field name="ks_background_color">#03104E,0.99</field>
-        <field name="ks_font_color">#ffffff,0.99</field>
-        <field name="ks_default_icon_color">#ffffff,0.99</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_17" model="ks_dashboard_ninja.item">
-        <field name="name">Kpi ( Percentage)</field>
-        <field name="ks_dashboard_item_type">ks_kpi</field>
-        <field name="ks_record_count_type">count</field>
-        <field name="ks_record_count_type_2">count</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>
-        <field name="ks_domain">[["id","&lt;",100]]</field>
-        <field name="ks_data_comparison">Percentage</field>
-        <field name="ks_default_icon">paper-plane</field>
-        <field name="ks_dashboard_item_theme">red</field>
-        <field name="ks_background_color">#ED9922,0.99</field>
-        <field name="ks_font_color">#000000,0.99</field>
-        <field name="ks_default_icon_color">#000000,0.99</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_18" model="ks_dashboard_ninja.item">
-        <field name="name">Kpi ( Number)</field>
-        <field name="ks_dashboard_item_type">ks_kpi</field>
-        <field name="ks_record_count_type">count</field>
-        <field name="ks_record_count_type_2">count</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>
-        <field name="ks_target_view">Number</field>
-        <field name="ks_goal_enable">1</field>
-        <field name="ks_domain">[["id","&lt;",100]]</field>
-        <field name="ks_data_comparison">Sum</field>
-        <field name="ks_default_icon">money</field>
-        <field name="ks_dashboard_item_theme">green</field>
-        <field name="ks_background_color">#5CB85C,0.63</field>
-        <field name="ks_font_color">#000000,0.99</field>
-        <field name="ks_default_icon_color">#000000,0.99</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_19" model="ks_dashboard_ninja.item">
-        <field name="name">Kpi (sum)</field>
-        <field name="ks_dashboard_item_type">ks_kpi</field>
-        <field name="ks_record_count_type">count</field>
-        <field name="ks_record_count_type_2">count</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>
-        <field name="ks_data_comparison">Sum</field>
-        <field name="ks_domain">[["id","&lt;",100]]</field>
-        <field name="ks_default_icon">bar-chart</field>
-        <field name="ks_dashboard_item_theme">yellow</field>
-        <field name="ks_background_color">#f0ad4e,0.99</field>
-        <field name="ks_font_color">#ffffff,0.99</field>
-        <field name="ks_default_icon_color">#ffffff,0.99</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_20" model="ks_dashboard_ninja.item">
-        <field name="name">Bar Chart With Data Values</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_domain">[["id","&lt;",40]]</field>
-        <field name="ks_chart_item_color">default</field>
-        <field name="ks_dashboard_item_type">ks_bar_chart</field>
-        <field name="ks_show_data_value">1</field>
-        <field name="ks_unit_selection">monetary</field>
-        <field name="ks_company_id" eval="0"/>
+<!--    <record id="ks_default_item_16" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Kpi Ratio</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_kpi</field>-->
+<!--        <field name="ks_record_count_type">count</field>-->
+<!--        <field name="ks_record_count_type_2">count</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_data_comparison">Ratio</field>-->
+<!--        <field name="ks_domain">[["id","&lt;",100]]</field>-->
+<!--        <field name="ks_default_icon">user</field>-->
+<!--        <field name="ks_dashboard_item_theme">blue</field>-->
+<!--        <field name="ks_background_color">#03104E,0.99</field>-->
+<!--        <field name="ks_font_color">#ffffff,0.99</field>-->
+<!--        <field name="ks_default_icon_color">#ffffff,0.99</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_17" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Kpi ( Percentage)</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_kpi</field>-->
+<!--        <field name="ks_record_count_type">count</field>-->
+<!--        <field name="ks_record_count_type_2">count</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_domain">[["id","&lt;",100]]</field>-->
+<!--        <field name="ks_data_comparison">Percentage</field>-->
+<!--        <field name="ks_default_icon">paper-plane</field>-->
+<!--        <field name="ks_dashboard_item_theme">red</field>-->
+<!--        <field name="ks_background_color">#ED9922,0.99</field>-->
+<!--        <field name="ks_font_color">#000000,0.99</field>-->
+<!--        <field name="ks_default_icon_color">#000000,0.99</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_18" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Kpi ( Number)</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_kpi</field>-->
+<!--        <field name="ks_record_count_type">count</field>-->
+<!--        <field name="ks_record_count_type_2">count</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_target_view">Number</field>-->
+<!--        <field name="ks_goal_enable">1</field>-->
+<!--        <field name="ks_domain">[["id","&lt;",100]]</field>-->
+<!--        <field name="ks_data_comparison">Sum</field>-->
+<!--        <field name="ks_default_icon">money</field>-->
+<!--        <field name="ks_dashboard_item_theme">green</field>-->
+<!--        <field name="ks_background_color">#5CB85C,0.63</field>-->
+<!--        <field name="ks_font_color">#000000,0.99</field>-->
+<!--        <field name="ks_default_icon_color">#000000,0.99</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_19" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Kpi (sum)</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_kpi</field>-->
+<!--        <field name="ks_record_count_type">count</field>-->
+<!--        <field name="ks_record_count_type_2">count</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_data_comparison">Sum</field>-->
+<!--        <field name="ks_domain">[["id","&lt;",100]]</field>-->
+<!--        <field name="ks_default_icon">bar-chart</field>-->
+<!--        <field name="ks_dashboard_item_theme">yellow</field>-->
+<!--        <field name="ks_background_color">#f0ad4e,0.99</field>-->
+<!--        <field name="ks_font_color">#ffffff,0.99</field>-->
+<!--        <field name="ks_default_icon_color">#ffffff,0.99</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_20" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Bar Chart With Data Values</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_domain">[["id","&lt;",40]]</field>-->
+<!--        <field name="ks_chart_item_color">default</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_bar_chart</field>-->
+<!--        <field name="ks_show_data_value">1</field>-->
+<!--        <field name="ks_unit_selection">monetary</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
 
-    </record>
-    <record id="ks_default_item_21" model="ks_dashboard_ninja.item">
-        <field name="name">Semi Circle Pie Chart</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_semi_circle_chart">1</field>
-        <field name="ks_chart_item_color">warm</field>
-        <field name="ks_record_data_limit">10</field>
-        <field name="ks_show_data_value">1</field>
-        <field name="ks_unit_selection">monetary</field>
-        <field name="ks_dashboard_item_type">ks_pie_chart</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_22" model="ks_dashboard_ninja.item">
-        <field name="name">Horizontal Bar(sub-group)</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_chart_relation_sub_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_chart_item_color">default</field>
-        <field name="ks_domain">[["id","&lt;",10]]</field>
-        <field name="ks_show_data_value">1</field>
-        <field name="ks_unit_selection">monetary</field>
-        <field name="ks_dashboard_item_type">ks_horizontalBar_chart</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_23" model="ks_dashboard_ninja.item">
-        <field name="name">Area Chart with data values</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__code')"/>
-        <field name="ks_chart_item_color">warm</field>
-        <field name="ks_record_data_limit">25</field>
-        <field name="ks_show_data_value">1</field>
-        <field name="ks_unit_selection">monetary</field>
-        <field name="ks_dashboard_item_type">ks_area_chart</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_24" model="ks_dashboard_ninja.item">
-        <field name="name">Line Chart with values</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_chart_item_color">warm</field>
-        <field name="ks_record_data_limit">10</field>
-        <field name="ks_show_data_value">1</field>
-        <field name="ks_unit_selection">monetary</field>
-        <field name="ks_dashboard_item_type">ks_line_chart</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_25" model="ks_dashboard_ninja.item">
-        <field name="name">Doughnut semi circle</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_chart_item_color">neon</field>
-        <field name="ks_semi_circle_chart">1</field>
-        <field name="ks_record_data_limit">25</field>
-        <field name="ks_show_data_value">1</field>
-        <field name="ks_unit_selection">monetary</field>
-        <field name="ks_dashboard_item_type">ks_doughnut_chart</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_26" model="ks_dashboard_ninja.item">
-        <field name="name">Kpi 26(Average)</field>
-        <field name="ks_dashboard_item_type">ks_kpi</field>
-        <field name="ks_record_field" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_record_field_2" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_data_format">indian</field>
-        <field name="ks_record_count_type">average</field>
-        <field name="ks_record_count_type_2">average</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>
-        <field name="ks_target_view">Number</field>
-        <field name="ks_goal_enable">1</field>
-        <field name="ks_domain">[["id","&lt;",100]]</field>
-        <field name="ks_data_comparison">Sum</field>
-        <field name="ks_default_icon">money</field>
-        <field name="ks_dashboard_item_theme">blue</field>
-        <field name="ks_background_color">#2DC9B3,0.99</field>
-        <field name="ks_font_color">#000000,0.99</field>
-        <field name="ks_default_icon_color">#000000,0.99</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_27" model="ks_dashboard_ninja.item">
-        <field name="name">Kpi (previous)</field>
-        <field name="ks_dashboard_item_type">ks_kpi</field>
-        <field name="ks_record_count_type">count</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_domain">[["id","&lt;",100]]</field>
-        <field name="ks_previous_period">1</field>
-        <field name="ks_date_filter_selection">t_week</field>
-        <field name="ks_default_icon">money</field>
-        <field name="ks_dashboard_item_theme">green</field>
-        <field name="ks_background_color">#17D817,0.59</field>
-        <field name="ks_font_color">#000000,0.99</field>
-        <field name="ks_default_icon_color">#000000,0.99</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
-    <record id="ks_default_item_28" model="ks_dashboard_ninja.item">
-        <field name="name">list view (grouped)</field>
-        <field name="ks_chart_data_count_type">sum</field>
-        <field name="ks_chart_groupby_type">relational_type</field>
-        <field name="ks_model_id" eval="ref('base.model_res_country')"/>
-        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>
-        <field name="ks_list_view_type">ungrouped</field>
-        <field name="ks_list_view_group_fields" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>
-        <field name="ks_list_view_fields"
-               eval="[(6, 0, [ref('base.field_res_country__phone_code'),ref('base.field_res_country__name')])]"/>
-        <field name="ks_domain">[["id","&lt;",10]]</field>
-        <field name="ks_dashboard_item_type">ks_list_view</field>
-        <field name="ks_company_id" eval="0"/>
-    </record>
+<!--    </record>-->
+<!--    <record id="ks_default_item_21" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Semi Circle Pie Chart</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_semi_circle_chart">1</field>-->
+<!--        <field name="ks_chart_item_color">warm</field>-->
+<!--        <field name="ks_record_data_limit">10</field>-->
+<!--        <field name="ks_show_data_value">1</field>-->
+<!--        <field name="ks_unit_selection">monetary</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_pie_chart</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_22" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Horizontal Bar(sub-group)</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_chart_relation_sub_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_chart_item_color">default</field>-->
+<!--        <field name="ks_domain">[["id","&lt;",10]]</field>-->
+<!--        <field name="ks_show_data_value">1</field>-->
+<!--        <field name="ks_unit_selection">monetary</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_horizontalBar_chart</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_23" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Area Chart with data values</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__code')"/>-->
+<!--        <field name="ks_chart_item_color">warm</field>-->
+<!--        <field name="ks_record_data_limit">25</field>-->
+<!--        <field name="ks_show_data_value">1</field>-->
+<!--        <field name="ks_unit_selection">monetary</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_area_chart</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_24" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Line Chart with values</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_chart_item_color">warm</field>-->
+<!--        <field name="ks_record_data_limit">10</field>-->
+<!--        <field name="ks_show_data_value">1</field>-->
+<!--        <field name="ks_unit_selection">monetary</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_line_chart</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_25" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Doughnut semi circle</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_measure_field" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_chart_item_color">neon</field>-->
+<!--        <field name="ks_semi_circle_chart">1</field>-->
+<!--        <field name="ks_record_data_limit">25</field>-->
+<!--        <field name="ks_show_data_value">1</field>-->
+<!--        <field name="ks_unit_selection">monetary</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_doughnut_chart</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_26" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Kpi 26(Average)</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_kpi</field>-->
+<!--        <field name="ks_record_field" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_record_field_2" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_data_format">indian</field>-->
+<!--        <field name="ks_record_count_type">average</field>-->
+<!--        <field name="ks_record_count_type_2">average</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_model_id_2" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_target_view">Number</field>-->
+<!--        <field name="ks_goal_enable">1</field>-->
+<!--        <field name="ks_domain">[["id","&lt;",100]]</field>-->
+<!--        <field name="ks_data_comparison">Sum</field>-->
+<!--        <field name="ks_default_icon">money</field>-->
+<!--        <field name="ks_dashboard_item_theme">blue</field>-->
+<!--        <field name="ks_background_color">#2DC9B3,0.99</field>-->
+<!--        <field name="ks_font_color">#000000,0.99</field>-->
+<!--        <field name="ks_default_icon_color">#000000,0.99</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_27" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">Kpi (previous)</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_kpi</field>-->
+<!--        <field name="ks_record_count_type">count</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_domain">[["id","&lt;",100]]</field>-->
+<!--        <field name="ks_previous_period">1</field>-->
+<!--        <field name="ks_date_filter_selection">t_week</field>-->
+<!--        <field name="ks_default_icon">money</field>-->
+<!--        <field name="ks_dashboard_item_theme">green</field>-->
+<!--        <field name="ks_background_color">#17D817,0.59</field>-->
+<!--        <field name="ks_font_color">#000000,0.99</field>-->
+<!--        <field name="ks_default_icon_color">#000000,0.99</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
+<!--    <record id="ks_default_item_28" model="ks_dashboard_ninja.item">-->
+<!--        <field name="name">list view (grouped)</field>-->
+<!--        <field name="ks_chart_data_count_type">sum</field>-->
+<!--        <field name="ks_chart_groupby_type">relational_type</field>-->
+<!--        <field name="ks_model_id" eval="ref('base.model_res_country')"/>-->
+<!--        <field name="ks_chart_relation_groupby" eval="ref('base.field_res_country__name')"/>-->
+<!--        <field name="ks_list_view_type">ungrouped</field>-->
+<!--        <field name="ks_list_view_group_fields" eval="[(6, 0, [ref('base.field_res_country__phone_code')])]"/>-->
+<!--        <field name="ks_list_view_fields"-->
+<!--               eval="[(6, 0, [ref('base.field_res_country__phone_code'),ref('base.field_res_country__name')])]"/>-->
+<!--        <field name="ks_domain">[["id","&lt;",10]]</field>-->
+<!--        <field name="ks_dashboard_item_type">ks_list_view</field>-->
+<!--        <field name="ks_company_id" eval="0"/>-->
+<!--    </record>-->
     <record id="ks_default_item_10_action" model="ks_dashboard_ninja.item_action">
         <field name="ks_dashboard_item_id" ref="ks_default_item_10"/>
         <field name="ks_chart_type">ks_bar_chart</field>
